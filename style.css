@@ -1,12 +1,41 @@
 body {	
     margin: 0 auto;
-    padding: 2em 2em 4em;
+    
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	line-height: 1.5em;
-	max-width: 960px;
-	background-image: url(images/SD_Reflection.jpg);
+	background-image: url(images/endless_road.jpg);
 	background-position: center;
 	background-size: auto;
-	background-repeat: no-repeat;
-	background-origin: content-box;
 }
+
+#wrapper {
+	margin: 0 auto;
+}
+
+header {
+	background-color: black;
+	height: 120px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.navbar {
+	text-align: center;
+	display: block;
+}
+
+.navbar a {
+	text-decoration: none;
+	color: #A2A0A0;
+	padding: 15px;
+	margin: 0 10px;
+	display: inline-block;
+	font-variant: small-caps;
+	font-size: 1.5em;
+}
+
+.navbar a:hover {
+	color: #fff;
+}
+
+
