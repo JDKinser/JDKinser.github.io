@@ -1,0 +1,93 @@
+body {	
+    margin: 0 auto;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	line-height: 1.5em;
+	background-image: url(images/endless_road.jpg);
+	background-position: center;
+	background-size: auto;
+}
+
+#wrapper {
+	margin: 0 auto;
+}
+
+header {
+	background-color: black;
+	height: 120px;
+	padding-left: 15px;
+	padding-right: 15px;
+	opacity: 0.8;
+}
+
+.navbar {
+	text-align: center;
+	display: block;
+}
+
+.navbar a {
+	text-decoration: none;
+	color: #A2A0A0;
+	padding: 15px;
+	margin: 0 10px;
+	display: inline-block;
+	font-variant: small-caps;
+	font-size: 1.5em;
+}
+
+.navbar a:hover {
+	color: #fff;
+}
+
+h2 {
+	font-family: fantasy;
+	text-align: center;
+	font-size: 1.8em;
+	margin-top: 50px;
+}
+
+#runner {
+	text-align: center
+}
+
+#runner img {
+	border: solid 5px;
+}
+
+#runner p {
+	margin: auto;
+	width: 400px;
+	background-color: #000;
+	opacity: 0.7;
+	color: #fff;
+}
+
+#runner p a {
+	text-decoration: none;
+	color: #a2a0a0;
+}
+
+#runner p a:hover {
+	color: #fff;
+}
+
+footer {
+	background-color: black;
+	height: 30px;
+	padding-left: 15px;
+	padding-right: 15px;
+	opacity: 0.8;
+}
+
+footer p {
+	text-align: center;
+	color: #fff;
+}
+
+footer p a {
+	text-decoration: none;
+	color: #a2a0a0;
+}
+
+footer p a:hover {
+	color: #fff;
+}
