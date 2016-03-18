@@ -112,6 +112,7 @@ table {
 	background-color: #000;
 	opacity: 0.7;
 	padding: 10px;
+	margin: 50px 0px;
 	margin-left: auto;
 	margin-right: auto;
 	
@@ -136,4 +137,13 @@ td {
 
 #TableContainer {
 	margin: 0 auto;
+}
+
+.shoepar {
+	color: #fff;
+	margin: auto;
+	width: 400px;
+	background-color: #000;
+	opacity: 0.7;
+	text-align: center;
 }
