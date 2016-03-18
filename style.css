@@ -106,3 +106,34 @@ footer p a {
 footer p a:hover {
 	color: #fff;
 }
+
+table {
+	border: 2px solid #fff;
+	background-color: #000;
+	opacity: 0.7;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+
+
+th {
+	border: 2px solid #fff;
+	text-align: center;
+	padding: 10px;
+	color: #fff;
+	font-size: 1.8em;
+}
+
+td {
+	color: #fff;
+	text-align: center;
+}
+
+
+
+#TableContainer {
+	margin: 0 auto;
+}
