@@ -76,15 +76,13 @@ h2 {
 footer {
 	background-color: black;
 	height: 30px;
-	padding-left: 15px;
-	padding-right: 15px;
+	margin: 80px 120px 0px;
+	padding: 2px 15px;
 	opacity: 0.8;
-	clear: both;
-	position: relative;
-	margin-bottom: auto;
 }
 
 footer p {
+	margin: auto;
 	text-align: center;
 	color: #fff;
 }
