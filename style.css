@@ -1,7 +1,11 @@
+/* ---------------------------------------------------*/
+/* --------------------->Global<----------------------*/
+/* ---------------------------------------------------*/
+
 html {
 	height: 100%;
-	margin: 0;
-	padding: 0;
+	margin: 0px;
+	padding: 0px;
 }
 
 body {	
@@ -17,7 +21,17 @@ body {
 	height: 100%;
 }
 
-#wrapper {
+h2 {
+	text-align: center;
+	font-size: 1.8em;
+	margin-top: 50px;
+}
+
+/* ---------------------------------------------------*/
+/* ------------------->Navigation<--------------------*/
+/* ---------------------------------------------------*/
+
+#navwrapper {
 	margin: 0 auto;
 }
 
@@ -48,12 +62,9 @@ header {
 	color: #fff;
 }
 
-h2 {
-	font-family: fantasy;
-	text-align: center;
-	font-size: 1.8em;
-	margin-top: 50px;
-}
+/* ---------------------------------------------------*/
+/* -------------------->Main Page<--------------------*/
+/* ---------------------------------------------------*/
 
 #runner {
 	text-align: center
@@ -79,6 +90,139 @@ h2 {
 #runner p a:hover {
 	color: #fff;
 }
+
+/* ---------------------------------------------------*/
+/* -------------------->Shoe Page<--------------------*/
+/* ---------------------------------------------------*/
+
+#TableContainer {
+	margin: 0 auto;
+}
+
+table {
+	border: 2px solid #fff;
+	background-color: #000;
+	opacity: 0.7;
+	padding: 10px;
+	margin: 50px 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+th {
+	border: 2px solid #fff;
+	text-align: center;
+	padding: 10px;
+	color: #fff;
+	font-size: 1.8em;
+}
+
+td {
+	color: #fff;
+	text-align: center;
+}
+
+.shoepar {
+	color: #fff;
+	margin: auto;
+	width: 400px;
+	background-color: #000;
+	opacity: 0.7;
+	text-align: center;
+}
+
+/* ---------------------------------------------------*/
+/* ------------------>Apparel Page<-------------------*/
+/* ---------------------------------------------------*/
+
+#apparelh2 {
+	margin-bottom: 80px;
+}
+
+#listcontainer ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#listcontainer li {
+	margin: 0;
+}
+
+#listcontainer ul ul a{
+	display: block;
+	color: #000;
+	background-color: #288CA4;
+	opacity: 0.7;
+	width: 19em;
+	padding: 3px 3px 3px 17px;
+	text-decoration: none;
+	border-bottom: 1px solid #fff;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#listcontainer ul ul a:hover {
+	color: #000;
+	background-color: #4AA1B6;
+}
+
+#listcontainer a {
+	display: block;
+	color: #a2a0a0;
+	background-color: #000;
+	opacity: 0.7;
+	width: 19em;
+	padding: 3px 12px 3px 8px;
+	text-decoration: none;
+	border-bottom: 1px solid #fff;
+	font-weight: bold;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#listcontainer a:hover {
+	color: #fff;
+	background-color: #1B2527;
+}
+
+/* ---------------------------------------------------*/
+/* ------------------>Training Page<------------------*/
+/* ---------------------------------------------------*/
+
+.trainingp {
+	text-align: center;
+	font-size: 1.1em;
+	font-weight: 500;
+}
+
+.trainingp1 {
+	text-align: center;
+	font-size: 1.1em;
+	font-weight: 500;
+	margin-top: 80px;
+}
+
+/* ---------------------------------------------------*/
+/* ------------------->About Page<--------------------*/
+/* ---------------------------------------------------*/
+
+.aboutp {
+	text-align: center;
+	font-size: 1.1em;
+	font-weight: 500;
+}
+
+.aboutp1 {
+	text-align: center;
+	font-size: 1.1em;
+	font-weight: 500;
+	margin-top: 80px;
+}
+
+/* ---------------------------------------------------*/
+/* --------------------->Footer<----------------------*/
+/* ---------------------------------------------------*/
 
 footer {
 	position: fixed;
