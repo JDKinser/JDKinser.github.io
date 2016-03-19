@@ -52,7 +52,7 @@ header {
 	text-decoration: none;
 	color: #A2A0A0;
 	padding: 15px;
-	margin: 0 10px;
+	margin: 0 1%;
 	display: inline-block;
 	font-variant: small-caps;
 	font-size: 1.5em;
@@ -250,3 +250,33 @@ footer p a {
 footer p a:hover {
 	color: #fff;
 }
+
+/* ---------------------------------------------------*/
+/* ------------------->Responsive<--------------------*/
+/* ---------------------------------------------------*/
+
+/*@media screen and (max-width: 1224px) {
+	
+}*/
+
+@media screen and (max-width: 768px) {
+	
+	#runner img {
+		width: 100%;
+		height: auto;
+		margin: 10px;
+	}
+	
+	h2 {
+		font-size: 1.4em;
+	}
+	
+	.navbar a {
+		font-size: 1em;
+		padding: 8px;
+	}
+}
+
+/*@media screen and (max-width: 320px) {
+
+}*/
