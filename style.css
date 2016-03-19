@@ -148,5 +148,57 @@ td {
 	text-align: center;
 	font-size: 1.1em;
 	font-weight: 500;
-	
 }
+
+.listDropDown, ul.sub1, ul.sub2{
+	list-style-type: none;
+}
+
+
+
+li {
+	border: 1px solid;
+	width: 125px;
+	text-align: center;
+	position: relative;
+	float: left;
+	margin-right: 5px;
+}
+
+#dropdowncontainer {
+	margin: 0px;
+	padding: 0px;
+}
+
+ul .listDropDown a {
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	width: 125px;
+	height: 25px;
+	line-height: 25px;
+	background-color: #000;
+}
+
+ul .listDropDown .sub1 a {
+	margin-top: 5px;
+}
+
+ul .listDropDown li:hover > a {
+	background-color: #fff;
+}
+
+ul .listDropDown li:hover a:hover{
+	background-color: azure;
+}
+
+ul .listDropDown .sub1 {
+	display: none;
+	position: absolute;
+	left: 0px;
+}
+
+ul .listDropDown li:hover .sub1 {
+	display: block;
+}
+
